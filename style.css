@@ -14,11 +14,6 @@ body {
     padding: 8px 225px 150px 225px;
 }
 
-/* img {
-    color: #e5e7eb;
-    background-color: #e5e7eb;
-} */
-
 .img {
     background-color: rgb(106, 106, 106);
     display: flex;
@@ -26,6 +21,7 @@ body {
     align-items: center;
     height: 250px;
     width: 1000px;
+    font-size: 18px;
 }
 
 .logo {
@@ -64,19 +60,12 @@ a {
 .welcome {
     display: flex;
     gap: 64px;
-    /* margin-bottom: 64px; */
 }
 
 .description {
     margin-bottom: 16px;
     color: #e5e7eb;
 }
-
-/* .intro {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 64px;
-} */
 
 button {
     border: none;
@@ -85,9 +74,6 @@ button {
     padding: 8px 32px;
     color: #e5e7eb;
     font-size: 18px;
-    /* background-clip:padding-box; */
-    /* flex-shrink: 0; */
-    /* flex-grow: 0; */
 }
 
 
@@ -111,7 +97,7 @@ button {
 .panel-two-items {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
 }
 
 .item {
@@ -135,7 +121,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 96px 384px 96px 384px;
+    padding: 108px 384px 108px 384px;
 }
 
 .quote {
@@ -145,6 +131,7 @@ button {
 }
 
 .quote-by {
+    color: #1f2937;
     font-size: 24px;
     font-weight: 700;
     display: flex;
