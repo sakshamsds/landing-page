@@ -14,21 +14,31 @@ body {
     padding: 8px 225px 150px 225px;
 }
 
-.img {
+.welcome img {
+    max-height: 250px;
+    max-width: auto;
+}
+
+/* .img {
     background-color: rgb(106, 106, 106);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    width: 1000px;
+    max-height: 250px;
+    max-width: 1000px;
     font-size: 18px;
-}
+} */
 
-.logo {
+/* .logo {
     font-weight: 900;
     font-size: 24px;
     display: flex;
     align-items: center;
+} */
+
+.header img {
+    width: 50px;
+    height: auto;
 }
 
 .header-links {
@@ -104,11 +114,18 @@ button {
     width: 160px;
 }
 
-.illustration {
+.item img {
+    border: 3px solid rgb(45, 113, 203);
+    border-radius: 12px;
+    width: 160px;
+    height: 150px;
+}
+
+/* .illustration {
     height: 150px;
     border: 3px solid rgb(45, 113, 203);
     border-radius: 12px;
-}
+} */
 
 .item-text {
     margin-top: 8px;
